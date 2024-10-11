@@ -1,0 +1,286 @@
+@font-face {
+  font-family: Car-names;
+  src: url("../assets/Font/AgrozzaDemoRegular.ttf");
+}
+@font-face {
+    font-family: bold-dark;
+    src: url("../assets/Font/Sequel100Black-95.ttf");
+}
+@font-face {
+    font-family: bold-edition;
+    src: url("../assets/Font/Sequel100Black-45.ttf");
+}
+@font-face {
+    font-family: lemon-milk-ultra-light;
+    src: url("../assets/Font/Lemon-Milk-Pro-Ultra-Light.otf");
+}
+@font-face {
+    font-family: Shinko;
+    src: url("../assets/Font/ShinkosansRegular-8OO50.otf");
+}
+@font-face {
+    font-family: lemon-milk-regular;
+    src: url("../assets/Font/Lemon\ Milk\ Pro\ Regular.otf");
+}
+@font-face {
+    font-family: lato-regular;
+    src: url("../assets/Font/Lato-Bold.ttf");
+}
+
+*{
+    padding: 0;margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.parent-box{
+    background-color: rebeccapurple;
+    width: 90vw;
+    height:90vh;
+    margin: auto auto;
+    display: block;
+  
+    display: flex;
+    
+}
+.grand-parent-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+.left-child{
+  
+    width: 50%;
+    height: 100%;
+    background-color:white;
+}
+.right-child{
+   
+    width: 50%;
+    height: 100%;
+   
+}
+.form-div form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8.5vw;
+}
+.if-new{
+margin-left: 5.2vw;
+margin-top: 1.5vh;
+font-size: 0.8vw;
+font-family: lemon-milk-ultra-light;
+
+
+}
+.if-new2{
+  margin-left: 3.5vw;
+  margin-top: 1.5vh;
+  font-size: 0.8vw;
+  font-family: lemon-milk-ultra-light;
+  
+  
+  }
+
+.form-item label{
+  font-size: 13px;
+  font-family: lemon-milk-ultra-light;
+}
+
+.form-item{
+  margin-top: 15px;
+  margin-bottom: 15px;
+    
+
+}
+#butn{
+  width: 20vw;
+  position: relative;
+  right: 2vw;
+}
+#trailer-curvv {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  box-shadow: 5px 5px 0 #000, 10px 10px 0 #EFBF04;
+}
+
+
+.header-div h1{
+  display: inline-block;
+  box-shadow: 5px 5px 0 #000, 10px 10px 0 #EFBF04;
+}
+
+.login-div{
+  width: 100%;
+  height: 100%;
+  /* display: none; */
+}
+.hehe{
+  display: none;
+}
+
+/* For removing The increment and decrement buttons in number input field */
+input[type=number]{
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* #################### */
+
+
+
+
+.register-form-div form{
+  margin-top: -15vh;
+}
+
+
+
+
+
+
+/* Input Fields CSS */
+.brutalist-container {
+    position: relative;
+    width: 100px;
+    font-family: monospace;
+  }
+  
+  .brutalist-input {
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: 4px solid #000;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 5px 5px 0 #000, 10px 10px 0 #EFBF04;
+  }
+  
+  
+  
+  .brutalist-input:focus {
+    animation: focus-pulse 4s cubic-bezier(0.25, 0.8, 0.25, 1) infinite,
+      glitch 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;
+  }
+  
+  .brutalist-input:focus::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: white;
+    z-index: -1;
+  }
+  
+  .brutalist-input:focus::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: -2;
+    clip-path: inset(0 100% 0 0);
+    animation: glitch-slice 4s steps(2, end) infinite;
+  }
+  
+  
+  
+  
+  .brutalist-input:focus + .brutalist-label {
+    
+    background-color: #EFBF04;
+  }
+
+
+
+
+
+
+/* Submit Btn */
+  .brutalist-button {
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: 4px solid #000;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 5px 5px 0 #000, 10px 10px 0 #EFBF04;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10.5%;
+    margin-left: 10.5%;
+  }
+  
+  .brutalist-button:hover {
+    background-color: #bc9704;
+    color: #fff;
+    box-shadow: 5px 5px 0 #000, 10px 10px 0 #EFBF04; /* Different color on hover */
+  }
+  
+  .brutalist-button:focus {
+    animation: focus-pulse 4s cubic-bezier(0.25, 0.8, 0.25, 1) infinite,
+      glitch 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;
+  }
+  
+  .brutalist-button:focus::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: white;
+    z-index: -1;
+  }
+  
+  .brutalist-button:focus::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: -2;
+    clip-path: inset(0 100% 0 0);
+    animation: glitch-slice 4s steps(2, end) infinite;
+  }
+  
+  
+  @keyframes glitch-slice {
+    0%, 100% {
+      clip-path: inset(0 100% 0 0);
+    }
+    50% {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  /* Submit btn Ends */

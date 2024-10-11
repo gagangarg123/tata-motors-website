@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tata Motors | Passenger Vehicles</title>
+  <link rel="icon" href="../assets/Images/tata-favicon.svg">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div id="nav-outer" class="nav-outer">
+    <div class="nav-inner">
+      <div class="nav-logo" id="nav-tata-logo">
+        <a href="#trailer-curvv">
+          <img id="nav-logo-before" src="../assets/Images/nav-Tata-connect-aspire-logo-before.png" alt="" />
+        </a>
+      </div>
+
+      <div class="nav-items">
+        <ul>
+          <li><a class="linked-text" href="#">Vehicles</a></li>
+
+          <li><a class="linked-text" href="#">Accessories</a></li>
+          <li><a class="linked-text" href="#">Services</a></li>
+
+          <li><a class="linked-text" href="#">Quick Links</a></li>
+          <li><a class="linked-text" id="nav_login" href="login.html">Login</a></li>
+        </ul>
+      </div>
+      <div class="dealership">
+        <a class="linked-text" id="nav_login" href="login.html">Login</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="book-this" id="btn">
+    <div class="svg-div">
+    <?xml version="1.0" encoding="utf-8"?><svg id="steering-wheel" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 122.88" style="enable-background:new 0 0 122.88 122.88" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M61.44,0c33.93,0,61.44,27.51,61.44,61.44c0,33.93-27.51,61.44-61.44,61.44S0,95.37,0,61.44 C0,27.51,27.51,0,61.44,0L61.44,0z M61.17,61.6c1.76,0,3.18,1.42,3.18,3.18c0,1.76-1.42,3.18-3.18,3.18 c-1.76,0-3.18-1.42-3.18-3.18C57.99,63.03,59.42,61.6,61.17,61.6L61.17,61.6z M61.2,53.28c6.34,0,11.47,5.14,11.47,11.47 c0,6.34-5.14,11.47-11.47,11.47c-6.33,0-11.47-5.14-11.47-11.47C49.73,58.41,54.87,53.28,61.2,53.28L61.2,53.28z M14.78,44.57 c4.45-12.31,13.52-22.7,24.9-28.01c15.63-7.29,34.61-7.75,50.69,4.15c9.48,7.01,12.94,12.76,17.67,22.95 c3.58,9.03,0.64,11.97-10.87,6.9c-23.79-11.77-47.84-11.24-72.12,0C16.09,56.41,11.06,51.53,14.78,44.57L14.78,44.57z M75.9,109.05 c16.62-5.23,26.32-15.81,32.27-29.3c3.87-10.43-8.26-13.97-12.52-7.1c-2.55,5.06-5.59,9.4-9.55,12.77 c-6.2,5.27-15.18,6.23-16.58,16.16C68.79,106.74,69.97,111.38,75.9,109.05L75.9,109.05z M47.26,109.05 c-16.62-5.23-26.32-15.81-32.27-29.3c-3.87-10.43,8.26-13.97,12.52-7.1c2.55,5.06,5.59,9.4,9.55,12.77 c6.2,5.27,15.18,6.23,16.58,16.16C54.37,106.74,53.19,111.38,47.26,109.05L47.26,109.05z"/></g></svg>
+  </div>
+  <div class="side-text-div">Book a Test Ride</div>
+  </div>
+
+  
+
+  <div class="trailer">
+    <video id="trailer-curvv" class="first-video" autoplay loop muted plays-inline disablePictureInPicture>
+      <source src="../assets/Images/curvv_trailer_concept.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <!-- A div to push down elements from the intro video -->
+  <div class="trial"></div>
+  <!-- CAR section PETROL / DIESEL , iCNG , EV Starts -->
+  <div class="car-select">
+    <div class="all-models">
+      <h1>Our Vehicles</h1>
+    </div>
+    <div class="car-select-inner">
+      <div class="car-type">
+        <ul>
+          <li id="fuel" onclick="myFunction()">Petrol / Diesel</li>
+          <li id="cng" onclick="myFunction2()">iCNG</li>
+          <li id="electric" onclick="myFunction3()">Electric</li>
+        </ul>
+      </div>
+      <!-- Display Trigger Fuel  -->
+      <div id="display-trigger-fuel" class="display-trigger-fuel">
+        <div class="cars-area">
+          <!-- Car 1 -->
+          <a href="####">
+            <div class="car-box car-box-1">
+              <div class="car-main-box">
+                <div class="car-image car-image-1">
+                  <img src="../assets/Images/safari-diagonal-view.webp" alt="" />
+                </div>
+                <div class="car-content">
+                  <h1>Safari</h1>
+                  <h3>Reclaim Your Life</h3>
+                  <p>
+                    The New Safari epitomizes premium luxury with its opulent
+                    interiors, Plush Upholstery & advanced infotainment
+                    system. Get ready to Reclaim Your Life with the New –
+                    Safari.
+                  </p>
+                </div>
+              </div>
+              <div class="car-info-images">
+                <img src="../assets/Images/safari-interior-1.jpg" alt="" />
+                <img src="../assets/Images/safari-information-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 2  -->
+          <a href="####">
+            <div class="car-box car-box-2 ulti-car-box">
+              <div class="car-main-box">
+                <div class="car-content">
+                  <h1>Harrier</h1>
+                  <h3>We are Warriors, We are Harriers</h3>
+                  <p>
+                    The New Safari epitomizes premium luxury with its opulent
+                    interiors, Plush Upholstery & advanced infotainment
+                    system. Get ready to Reclaim Your Life with the New –
+                    Safari.
+                  </p>
+                </div>
+                <div class="car-image car-image-2">
+                  <img src="../assets/Images/harrier-diagonal-view.webp" alt="" />
+                </div>
+              </div>
+              <div class="car-info-images ulti-car">
+                <img src="../assets/Images/Harrier/harrier-interior-1.jpg" alt="" />
+                <img src="../assets/Images/Harrier/harrier-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+
+          <!-- car 3 -->
+          <a href="####">
+            <div class="car-box car-box-3">
+              <div class="car-main-box">
+                <div class="car-image car-image-3">
+                  <img src="../assets/Images/Nexon/nexon-diagonal-view.webp" alt="" />
+                </div>
+                <div class="car-content">
+                  <h1>Nexon</h1>
+                  <h3>It's #WayAhead</h3>
+                  <p>
+                    Nexon in it's new avatar is now here with multiple
+                    combinations of design, powertrain and features with the
+                    philosophy of personalisation and 'A Nexon for Everyone'
+                  </p>
+                </div>
+              </div>
+              <div class="car-info-images">
+                <img src="../assets/Images/Nexon/nexon-inteior-1.jpg" alt="" />
+                <img src="../assets/Images/Nexon/nexon-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 4 Curvv-->
+          <a href="####">
+            <div class="car-box car-box-4 ulti-car-box">
+              <div class="car-main-box">
+                <div class="car-content">
+                  <h1>Curvv</h1>
+                  <h3>Where SUV muscle meets Coupé Finesse.</h3>
+                  <p>
+                    Merging the toughness and durability of an SUV with the
+                    Elegant & Sporty Silhouette of a Coupé.
+                  </p>
+                </div>
+                <div class="car-image car-image-4">
+                  <img src="../assets/Images/Curvv/Curvv-diagonal.webp" alt="" />
+                </div>
+              </div>
+              <div class="car-info-images ulti-car">
+                <img src="../assets/Images/Curvv/curvv-interior-1.jpg" alt="" />
+                <img src="../assets/Images/Curvv/curvv-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 5 Tigor -->
+          <a href="####">
+            <div class="car-box car-box-5">
+              <div class="car-main-box">
+                <div class="car-image car-image-5">
+                  <img src="../assets/Images/Tigor/Tigor-diagonal.webp" alt="" />
+                </div>
+                <div class="car-content">
+                  <h1>Tigor</h1>
+                  <h3>Sedan for the Stars</h3>
+                  <p>
+                    Stunning style, state-of-the-art features, comprehensive safety and seamlessly smooth drives of the
+                    New Tigor ensure you are in your element while exploring the city.
+                  </p>
+                </div>
+              </div>
+              <div class="car-info-images">
+                <img src="../assets/Images/Tigor/tigor-interior-1.jpg" alt="" />
+                <img src="../assets/Images/Tigor/tigor-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 6 Punch -->
+          <a href="####">
+            <div class="car-box car-box-6 ulti-car-box">
+              <div class="car-main-box">
+                <div class="car-content">
+                  <h1>Punch</h1>
+                  <h3>The no-compromise SUV</h3>
+                  <p>
+                    Offering an exciting mix of tough utility with sporty dynamics that Optimizes what a characterful
+                    SUV should be. The world will take notice of two showstoppers. You and the Punch.
+                  </p>
+                </div>
+                <div class="car-image car-image-6">
+                  <img src="../assets/Images/Punch/Punch-diagonal-view.webp" alt="" />
+                </div>
+              </div>
+              <div class="car-info-images ulti-car">
+                <img src="../assets/Images/Punch/punch-interior-1.jpg" alt="" />
+                <img src="../assets/Images/Punch/punch-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 7 Tiago -->
+          <a href="####">
+            <div class="car-box car-box-7">
+              <div class="car-main-box">
+                <div class="car-image car-image-7">
+                  <img src="../assets/Images/Tiago/Tiago-diagonal.webp" alt="" />
+                </div>
+                <div class="car-content">
+                  <h1>Tiago</h1>
+                  <h3>It's Seriously Fun</h3>
+                  <p>
+                    Younger than ever. Bolder than ever. Inspired by the spirited youth, the All-new Tiago is hard to
+                    ignore. Drive around the city and watch heads turn towards you.
+                  </p>
+                </div>
+              </div>
+              <div class="car-info-images">
+                <img src="../assets/Images/Tiago/tiago-interior-1.jpg" alt="" />
+                <img src="../assets/Images/Tiago/tiago-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 8 Altrozz -->
+          <a href="####" class="hover-car-show">
+            <div class="car-box car-box-8 ulti-car-box">
+              <div class="car-main-box">
+                <div class="car-content">
+                  <h1>Altroz</h1>
+                  <h3>The Gold Standard</h3>
+                  <p>
+                    Looking for a hatchback that offers the best of everything? ALTROZ is the gold standard of
+                    hatchbacks. It has it all – Style, Safety, Performance and Technology. Whether you choose the
+                    petrol, diesel, i-Turbo or the iCNG, ALTROZ offers smooth and comfortable drives. Experience the
+                    thrill of driving an ALTROZ today.
+                  </p>
+                </div>
+                <div class="car-image car-image-8">
+                  <img src="../assets/Images/Altroz/altroz-diagonal.webp" alt="" />
+                </div>
+              </div>
+              <div class="car-info-images ulti-car">
+                <img src="../assets/Images/Altroz/altroz-interior-1.jpg" alt="" />
+                <img src="../assets/Images/Altroz/altroz-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!--This is Display trigger Fuel Div Ends -->
+      <!-- Display Trigger icng Starts   -->
+      <div id="display-trigger-iCNG" class="display-trigger-iCNG">
+        <div class="cars-area">
+
+          <!-- Car 5 Tigor -->
+          <a href="####">
+            <div class="car-box cng-1">
+              <div class="car-main-box">
+                <div class="car-image car-image-5">
+                  <img src="../assets/Images/Tigor/Tigor-diagonal.webp" alt="" />
+                </div>
+                <div class="car-content">
+                  <h1>Tigor</h1>
+                  <h3>Sedan for the Stars</h3>
+                  <p>
+                    Stunning style, state-of-the-art features, comprehensive safety and seamlessly smooth drives of the
+                    New Tigor ensure you are in your element while exploring the city.
+                  </p>
+                </div>
+              </div>
+              <div class="car-info-images">
+                <img src="../assets/Images/Tigor/tigor-interior-1.jpg" alt="" />
+                <img src="../assets/Images/Tigor/tigor-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 6 Punch -->
+          <a href="####">
+            <div class="car-box cng-2 ulti-car-box">
+              <div class="car-main-box">
+                <div class="car-content">
+                  <h1>Punch</h1>
+                  <h3>The no-compromise SUV</h3>
+                  <p>
+                    Offering an exciting mix of tough utility with sporty dynamics that Optimizes what a characterful
+                    SUV should be. The world will take notice of two showstoppers. You and the Punch.
+                  </p>
+                </div>
+                <div class="car-image car-image-6">
+                  <img src="../assets/Images/Punch/Punch-diagonal-view.webp" alt="" />
+                </div>
+              </div>
+              <div class="car-info-images ulti-car">
+                <img src="../assets/Images/Punch/punch-interior-1.jpg" alt="" />
+                <img src="../assets/Images/Punch/punch-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 7 Tiago -->
+          <a href="####">
+            <div class="car-box cng-3">
+              <div class="car-main-box">
+                <div class="car-image car-image-7">
+                  <img src="../assets/Images/Tiago/Tiago-diagonal.webp" alt="" />
+                </div>
+                <div class="car-content">
+                  <h1>Tiago</h1>
+                  <h3>It's Seriously Fun</h3>
+                  <p>
+                    Younger than ever. Bolder than ever. Inspired by the spirited youth, the All-new Tiago is hard to
+                    ignore. Drive around the city and watch heads turn towards you.
+                  </p>
+                </div>
+              </div>
+              <div class="car-info-images">
+                <img src="../assets/Images/Tiago/tiago-interior-1.jpg" alt="" />
+                <img src="../assets/Images/Tiago/tiago-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 8 Altrozz -->
+          <a href="####" class="hover-car-show">
+            <div class="car-box cng-4 ulti-car-box">
+              <div class="car-main-box">
+                <div class="car-content">
+                  <h1>Altroz</h1>
+                  <h3>The Gold Standard</h3>
+                  <p>
+                    Looking for a hatchback that offers the best of everything? ALTROZ is the gold standard of
+                    hatchbacks. It has it all – Style, Safety, Performance and Technology. Whether you choose the
+                    petrol, diesel, i-Turbo or the iCNG, ALTROZ offers smooth and comfortable drives. Experience the
+                    thrill of driving an ALTROZ today.
+                  </p>
+                </div>
+                <div class="car-image car-image-7">
+                  <img src="../assets/Images/Altroz/altroz-diagonal.webp" alt="" />
+                </div>
+              </div>
+              <div class="car-info-images ulti-car">
+                <img src="../assets/Images/Altroz/altroz-interior-1.jpg" alt="" />
+                <img src="../assets/Images/Altroz/altroz-interior-2.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Display Trigger icng ends -->
+      <!-- Display Trigger Electric Starts  -->
+
+      <div id="display-trigger-elec" class="display-trigger-elec">
+        <div class="cars-area">
+          <!-- Car 1 -->
+
+          <!-- Car 2  -->
+          <a href="####">
+            <div class="car-box ulti-car-box">
+              <div class="car-main-box">
+                <div class="car-content">
+                  <img src="../assets/Images/lightning.png" alt="">
+                  <h1>Curvv.ev</h1>
+                  <h3>Shaped for You</h3>
+                  <p>
+                    The SUV Coupé is designed to impress with its blend of elegance and innovation. With a distinctive
+                    design, luxurious comfort, robust performance, and top-tier safety features, every ride is a
+                    statement. It has it all because it's shaped for you.
+                  </p>
+                </div>
+                <div class="car-image ev-curvv">
+                  <img src="../assets/Images/Curvv/Curvv-ev-diagonal.webp" alt="" />
+                </div>
+              </div>
+              <div class="car-info-images ulti-car">
+                <img src="../assets/Images/Curvv/curvv-ev-information-1.webp" alt="" />
+                <img src="../assets/Images/Curvv/curvv-ev-information-2.webp" alt="" />
+              </div>
+            </div>
+          </a>
+
+          <!-- car 3 -->
+          <a href="####">
+            <div class="car-box">
+              <div class="car-main-box">
+                <div class="car-image ev-punch">
+                  <img src="../assets/Images/Punch/Punch-ev-diagonal.webp" alt="" />
+                </div>
+                <div class="car-content">
+                  <img src="../assets/Images/lightning.png" alt="">
+                  <h1>Punch.ev</h1>
+                  <h3>beyond everyday</h3>
+                  <p>
+                    Here’s a new world of versatility where you take the extra mile with the Punch.ev. It’s time to make
+                    a little more of every moment, to go beyond-everyday.
+
+                  </p>
+                </div>
+              </div>
+              <div class="car-info-images">
+                <img src="../assets/Images/Punch/punch-ev-interior-1.webp" alt="" />
+                <img src="../assets/Images/Punch/punch-ev-interior-2.webp" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 4 Curvv-->
+          <a href="####">
+            <div class="car-box ulti-car-box">
+              <div class="car-main-box">
+                <div class="car-content">
+                  <img src="../assets/Images/lightning.png" alt="">
+                  <h1>Nexon.ev</h1>
+                  <h3>Meet the game changer</h3>
+                  <p>
+                    The all-new Nexon.ev represents a stunning leap forward in design, cabin comfort, performance,
+                    technology and safety for you and your family. It all adds up to an experience like no other. It
+                    changes the game.
+                  </p>
+                </div>
+                <div class="car-image ev-nexon">
+                  <img src="../assets/Images/Nexon/nexon-ev-diagonal.webp" alt="" />
+                </div>
+              </div>
+              <div class="car-info-images ulti-car">
+                <img src="../assets/Images/Nexon/nexon-ev-interior-1.webp" alt="" />
+                <img src="../assets/Images/Nexon/nexon-ev-interior-2.webp" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 5 Tigor -->
+          <a href="####">
+            <div class="car-box">
+              <div class="car-main-box">
+                <div class="car-image ev-tiago">
+                  <img src="../assets/Images/Tiago/tiago-ev-diagonal.webp" alt="" />
+                </div>
+                <div class="car-content">
+                  <img src="../assets/Images/lightning.png" alt="">
+                  <h1>Tiago.ev</h1>
+                  <h3>go.ev with Tiago.ev</h3>
+                  <p>
+                    If you got it, flaunt it. And when it comes to the Tiago.ev , you don’t even need to try too hard.
+                    This stunning EV is all style, and that’s not all. It also comes with awesome interiors and features
+                    that make every drive super exciting.
+                  </p>
+                </div>
+              </div>
+              <div class="car-info-images">
+                <img src="../assets/Images/Tiago/tiago-ev-interior-1.webp" alt="" />
+                <img src="../assets/Images/Tiago/tiago-ev-interior-2-.webp" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 6 Punch -->
+          <a href="####">
+            <div class="car-box ulti-car-box">
+              <div class="car-main-box">
+                <div class="car-content">
+                  <img src="../assets/Images/lightning.png" alt="">
+                  <h1>Tigor.ev</h1>
+                  <h3>The no-compromise SUV</h3>
+                  <p>
+                    Offering an exciting mix of tough utility with sporty dynamics that Optimizes what a characterful
+                    SUV should be. The world will take notice of two showstoppers. You and the Punch.
+                  </p>
+                </div>
+                <div class="car-image car-image-6">
+                  <img src="../assets/Images/Tigor/tigor-ev-diagonal.webp" alt="" />
+                </div>
+              </div>
+              <div class="car-info-images ulti-car">
+                <img src="../assets/Images/Tigor/tigor-interior-1.webp" alt="" />
+                <img src="../assets/Images/Tigor/tigor-ev-interior-2.webp" alt="" />
+              </div>
+            </div>
+          </a>
+          <!-- Car 7 Tiago -->
+
+          <!-- Display Trigger Electric Ends  -->
+        </div>
+      </div>
+
+      <!-- DARK Mode Section Starts -->
+
+
+      <!-- DARK Mode Section Ends -->
+      <!-- DARK Mode Section 2 Starts -->
+
+      <div class="dark-section">
+        <div class="part1">
+          <div class="content-part-1">
+            <div class="rotate-div">
+              <div id="row-div-1" class="row-div">
+                <div class="img-div">
+                  <img id="img1-scroll" src="../assets/Images/DARK/8.jpg" alt="" />
+                </div>
+                <div class="img-div" id="size-gear-img">
+                  <img src="../assets/Images/DARK/9.jpg" alt="" />
+                </div>
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/5.webp" alt="" />
+                </div>
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/11.webp" alt="" />
+                </div>
+              </div>
+              <div id="row-div-2" class="row-div">
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/13.webp" alt="" />
+                </div>
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/16.webp" alt="" />
+                </div>
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/15.webp" alt="" />
+                </div>
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/14.webp" alt="" />
+                </div>
+              </div>
+              <div id="row-div-3" class="row-div">
+                <div class="img-div">
+                  <img id="harrier-1-scroll" src="../assets/Images/DARK/1.avif" alt="" />
+                </div>
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/5.webp" alt="" />
+                </div>
+                <div class="img-div">
+                  <img id="nexon-1-scroll" src="../assets/Images/DARK/6.webp" alt="" />
+                </div>
+                <div class="img-div">
+                  <img id="power-1-scroll" src="../assets/Images/DARK/7.jpg" alt="" />
+                </div>
+              </div>
+              <div id="row-div-4" class="row-div">
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/8.jpg" alt="" />
+                </div>
+                <div class="img-div">
+                  <img id="gear-1-scroll" src="../assets/Images/DARK/9.jpg" alt="" />
+                </div>
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/11.webp" alt="" />
+                </div>
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/12.webp" alt="" />
+                </div>
+              </div>
+              <div id="row-div-5" class="row-div">
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/3.jpg" alt="" />
+                </div>
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/12.webp" alt="" />
+                </div>
+                <div class="img-div">
+                  <img id="dark-1-scroll" src="../assets/Images/DARK/4jpg.jpg" alt="" />
+                </div>
+                <div class="img-div">
+                  <img src="../assets/Images/DARK/8.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="overlay-div">
+              <div class="overlay-text">
+                <h1>Dark</h1>
+                <span id="edition">Edition</span>
+              </div>
+              <div class="scroll-down">
+                <h3>SCROLL DOWN</h3>
+                <div class="scroll-p">
+                  <div class="scrolling"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!--Complete Dark Section Ends-->
+
+      <!-- <div class="part-4">
+
+
+        <div class="left-part-4">
+          <div class="content-left-part-4 c-one">
+            <img src="../assets/Images/Dark-parallax-section/dark-alloys.webp" alt="">
+          </div>
+          <div class="content-left-part-4 c-two">
+            <img src="../assets/Images/Dark-parallax-section/dark-dashboard.webp" alt="">
+          </div>
+          <div class="content-left-part-4 c-three">
+            <img src="../assets/Images/Dark-parallax-section/dark-interior.webp" alt="">
+          </div>
+
+        </div>
+        <div class="right-part-4">
+          <div class="specs">
+            <div class="specs-cont-1">
+              <h2>R19 Blackstone Alloys With Aero Insert </h2>
+              <p>A perfect compliment to the Oberon Black exteriors, a Head Turner for sure !</p>
+            </div>
+            <div class="specs-cont-2">
+              <h2>Blackstone Matrix Dashboard </h2>
+              <p>Get Your swag rolling.</p>
+
+            </div>
+            <div class="specs-cont-3">
+              <h2>Benecke Kaliko Blackstone Leather* Upholstery</h2>
+              <p>Upholstery with Tri Arrow perforations and premium leatherette for unmatched comfort.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+
+      <!-- Dark ke 3 features Ends -->
+      <!-- Dark ki gadiyaaan Starts -->
+      <!-- Dark ki gadiyaaan Ends -->
+
+      <!-- Horizontal Cars Starts  -->
+
+
+      <!-- <div class="horizontal-scroll-div">
+        <div class="try-line"></div>
+        <div class="horizontal-scroller">
+          <div class="safari-dark-scroll scroll-set">
+          <h1>Safari</h1>
+          <img src="../assets/Images/safari-dark-try.webp" alt="">
+          </div>
+          <div class="Harrier-dark-scroll scroll-set">
+          <h1>Harrier</h1>
+          <img src="../assets/Images/harrier-dark-try.webp" alt="">
+          </div>
+          <div class="Nexon-dark-scroll scroll-set">
+          <h1>Nexon</h1>
+          <img src="../assets/Images/nexon-dark-try.png" alt="">
+          </div>
+        </div>
+      </div> -->
+
+
+
+      <!-- Horizontal Cars Ends  -->
+
+      <!-- Test Drive Form Starts -->
+
+      
+      
+      <div id="modal" class="modal">
+
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1 id="test-ride-heading">Book yourself a Test Ride</h1>
+          <!-- <div class="modal-img"><img src="../assets/Images/safari-information-2.jpg" alt=""></div> -->
+
+          <form id="form" action="" onsubmit="return formcheck()">
+            <h2>1. Personal Information</h2>
+            <div class="div-systam">
+              <div class="form-group">
+                <!-- <label for="email">Email address:</label> -->
+                <input type="email" class="brutalist-input smooth-type" id="email" name="email" placeholder="Email address">
+              </div>
+              <div class="form-group">
+                <!-- <label for="mobile">Mobile Number:</label> -->
+                <input type="tel" class="brutalist-input smooth-type" id="mobile" name="mobile" placeholder="Mobile Number" >
+               
+              </div>
+            </div>
+            <div class="div-systam">
+              <div class="form-group">
+                <!-- <label for="first-name">First Name:</label> -->
+                <input type="text" class="brutalist-input smooth-type" id="first-name" name="first-name" placeholder="First Name" >
+              </div>
+              <div class="form-group">
+                <!-- <label for="last-name">Last Name:</label> -->
+                <input type="text" class="brutalist-input smooth-type" id="last-name" name="last-name" placeholder="Last Name" >
+
+              </div>
+          
+            </div>
+            <p id="error1" class="error"></p>
+
+            <h2>2. Test Drive</h2>
+            <div class="form-group drive-model-select">
+              <label>Which model are you particularly interested in ?</label>
+              <div class="checkbox-group">
+                
+                <div class="check-div">
+                  <input type="checkbox" id="safari-test-drive" name="model" value="Tata Safari">
+                  <label for="safari-test-drive">Safari</label>
+                </div>
+                <div class="check-div">
+
+                <input type="checkbox" id="Harrier-test-drive" name="model" value="Tata Harrier">
+                <label for="Harrier-test-drive">Harrier</label>
+                </div>
+                <div class="check-div">
+                  <input type="checkbox" id="nexon-test-drive" name="model" value="Tata Nexon">
+                  <label for="nexon-test-drive">Nexon</label>
+                </div>
+                <div class="check-div">
+                <input type="checkbox" id="curvv-test-drive" name="model" value="Tata Curvv">
+                <label for="curvv-test-drive">Curvv</label>
+                </div>
+                <div class="check-div">
+                  <input type="checkbox" id="tigor-test-drive" name="model" value="Tata Tigor">
+                  <label for="tigor-test-drive">Tigor</label>
+                </div>
+                <div class="check-div">
+                  <input type="checkbox" id="punch-test-drive" name="model" value="Tata Punch">
+                  <label for="punch-test-drive">Punch</label>
+                </div>
+                <div class="check-div">
+                  <input type="checkbox" id="tiago-test-drive" name="model" value="Tata Tiago">
+                  <label for="tiago-test-drive">Tiago</label>
+                </div>
+                <div class="check-div">
+                  <input type="checkbox" id="altorz-test-drive" name="model" value="Tata Altroz">
+                  <label for="altroz-test-drive">Altroz</label>
+                </div>
+              </div>
+            </div>
+
+            <h2>3. Preferred Retailer</h2>
+            <div class="form-group">
+              <div class="div-systam">
+              <input type="text" class="brutalist-input smooth-type" id="prefered-retailer" name="last-name" placeholder="Postcode,city or town" >
+            </div>
+          </div>
+          <p id="postal-error" class="error"></p>
+
+            <h2 id="consent-heading">4. Consent</h2>
+            <div class="form-group consent">
+              <input type="checkbox" id="consent" name="consent" >
+              <label for="consent" id="consent-text">I agree with these terms<sup>*</sup></label>
+            </div>
+
+            <h2>5. Other Enquiries</h2>
+            <div class="form-group">
+              <div class="div-systam">
+              <input type="text" class="brutalist-input smooth-type" id="other-enquiries" name="last-name" placeholder="Additional Information / Enquiry">
+            </div>
+          </div>
+            
+
+          <button type="submit" class="brutalist-button">Submit</button>
+
+
+
+          </form>
+        </div>
+
+
+      </div>
+      <!-- Test Drive Form Ends -->
+
+
+
+
+
+
+
+
+      <!-- Footer Starts -->
+
+      <footer>
+        <div class="left-footer">
+          <div class="footerr">
+            <div class="footerr-content footerr-icon">
+              <h3>Social</h3>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li><br>
+                <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li><br>
+                <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li><br>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+            <div class="line-div"></div>
+            <div class="footerr-content text">
+              <h3>Help & Support</h3>
+              <p><a href="customercare@tatamotors.com"><i id="mail"
+                    class="fa-solid fa-envelope"></i><span>customercare@tatamotors.com</span></a></p>
+              <p><a href="tel:+917015676956"><i id="phone" class="fa-solid fa-phone"></i>1800 209 8282</a></p>
+              <!-- <p><a href="https://maps.app.goo.gl/3NuxZ9nBzZ8RWYjPA"><i class="fa-solid fa-location-dot"></i>Chitkara
+                University<br>Rajpura(Punjab)</a></p> -->
+            </div>
+            <div class="line-div"></div>
+
+            <div class="footerr-content text">
+              <h3>Quick Links</h3>
+              <p><a href="#">Contact Us</a></p>
+              <p><a href="#">Privacy policy</a></p>
+              <p><a href="#">Terms & Conditions</a></p>
+              <p><a href="#">TATA.ev</a></p>
+            </div>
+
+            <div class="line-div"></div>
+
+            <div class="footerr-content text">
+              <h3>Business</h3>
+              <p><a href="#">Commercial Vehicles</a></p>
+              <p><a href="#">Passenger Vehicles</a></p>
+              <p><a href="#">Electric Vehicles</a></p>
+              <p><a href="#">Luxury Vehicles</a></p>
+            </div>
+            <div class="line-div"></div>
+
+            <div class="footerr-content text">
+              <h3>Our Head Office</h3>
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.6733087002035!2d72.81016452490299!3d18.990030004666348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce901187cfb7%3A0x1e56de26be4aeb1e!2sRegus%20-%20Mumbai%2C%20Worli!5e0!3m2!1sen!2sin!4v1725200856823!5m2!1sen!2sin"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+      </footer>
+
+
+
+
+
+      <!-- 
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae
+      aliquid quibusdam a nesciunt enim ex voluptate repellat saepe veniam
+      adipisci mollitia id exercitationem odio, vero nihil cum, consequatur nemo? -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+      <script type="text/javascript" src="dark-section.js"></script>
+      <script type="text/javascript" src="form.js"></script>
+</body>
+
+</html>

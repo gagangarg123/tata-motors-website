@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login_style.css">
+</head>
+<body>
+    <div class="grand-parent-div">
+    <div class="parent-box">
+        <div class="left-child">
+            <div class="login-div">
+            <div class="form-div">
+                <div class="header-div">
+                <h1>Login</h1>
+                </div>
+                <form id="login_form" action="">
+
+                <div class="form-item">
+                <label for="email">Please enter  your email</label>
+                <input type="email" class="brutalist-input smooth-type" id="email" name="email" >
+                </div>
+                
+                <div class="form-item">
+                <label for="pass">Please enter  your password</label>
+                <input type="password" class="brutalist-input smooth-type" id="pass" name="pass" >
+                </div>
+                
+                <div class="form-item" id="butn">
+                <button class="brutalist-button" type="submit">Login</button>
+                <div class="if-new">
+                click <a href="" style="text-decoration: none; color: #EFBF04;">here</a> if you are new<sup>*</sup>
+                </div>
+                 </div>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- Register section Starts  -->
+        
+
+
+
+
+        </div>
+        <div class="right-child">
+            <video id="trailer-curvv" class="first-video" autoplay loop muted plays-inline disablePictureInPicture>
+                <source src="../assets/Video/login_video.mp4" type="video/mp4" />
+            </video>
+
+            
+        </div>
+    </div>
+    </div><!-- Grand parent div ends-->
+
+
+    <!-- <script>
+document.addEventListener('DOMContentLoaded', function () {
+    const loginDiv = document.querySelector('.login-div');
+    const registerDiv = document.querySelector('.register-div');
+    const newUserText = document.querySelector('.if-new');
+
+    // Show login by default and hide register
+    loginDiv.style.display = 'block';
+    registerDiv.style.display = 'none';
+
+    // Toggle between login and register forms on click
+    newUserText.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        if (loginDiv.style.display === 'block') {
+            loginDiv.style.display = 'none';
+            registerDiv.style.display = 'block';
+        } else {
+            loginDiv.style.display = 'block';
+            registerDiv.style.display = 'none';
+        }
+    });
+});
+
+    </script> -->
+
+<script src="login.js"></script>
+</body>
+
+</html>
